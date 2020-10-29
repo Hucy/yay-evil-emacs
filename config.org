@@ -429,3 +429,7 @@ Provides us with hints on available keystroke combinations.
     :config (when (memq window-system '(mac ns x))
               (exec-path-from-shell-initialize)))
 #+END_SRC
+*** center window
+#+begin_src emacs-lisp
+  (use-package centered-window :ensure t)
+#+end_src

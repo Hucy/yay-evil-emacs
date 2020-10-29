@@ -25,9 +25,9 @@
                                   (setq gc-cons-threshold ian/gc-cons-threshold)))
 
 (require 'package)
-(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-(add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/"))
+(add-to-list 'package-archives '("gnu" . "https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/gnu/"))
+(add-to-list 'package-archives '("melpa" . "https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/melpa/"))
+(add-to-list 'package-archives '("org" . "https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/org/"))
 (setq package-enable-at-startup nil)
 (package-initialize)
 
